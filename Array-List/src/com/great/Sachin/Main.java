@@ -1,5 +1,6 @@
 package com.great.Sachin;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -28,25 +29,25 @@ public class Main {
                     break;
 
                 case 3:
+                    System.out.println("enter the old Item to be replaced");
+                    String oldItem= sc.nextLine();
                     System.out.println("Enter the item and position to be modified");
                     String modify = sc.nextLine();
-                    int x= sc.nextInt();
-                    sc.nextLine();
-                    groceryList.modifyGroceryList(x-1,modify);
+                    groceryList.modifyGroceryList(modify,oldItem);
                     break;
 
                 case 4:
                     System.out.println("Enter the positon of the item to be removed");
-                    int remove = sc.nextInt();
-                    sc.nextLine();
-                    groceryList.removeGroceryIte(remove-1);
+                    String remove = sc.nextLine();
+                    groceryList.removeGroceryItem(remove);
                     break;
 
                 case 5:
                     System.out.println("Enter the item you want to find");
                     String find = sc.nextLine();
-                    if(groceryList.findItem(find)!=null) {
-                        System.out.println("Item found " + groceryList.findItem(find));
+
+                    if(groceryList.onFile(find)) {
+                        System.out.println("Item found : " + (groceryList.onFile(find)));
                     }else {
                         System.out.println("Nothing is found");
                     }
@@ -56,6 +57,23 @@ public class Main {
                     System.out.println("You are exiting the Application");
                     run=true;
                     break;
+
+                case 7 :
+                    System.out.println("Copying the ArrayList to other");
+                    //method 1
+
+                    ArrayList<String>myArray = new ArrayList<>();
+                    myArray.addAll(groceryList.getGroceryList());
+                    //method 2
+
+                    ArrayList newArrayList = new ArrayList(groceryList.getGroceryList());
+
+                    //method 3
+                    //Actually it will be used to copy the Array
+                    
+                    String[] myNewArray = new String [groceryList.getGroceryList().size()];
+                    myNewArray = groceryList.getGroceryList().toArray(myNewArray);
+
 
                     default:
                         System.out.println("enter a valid option");
