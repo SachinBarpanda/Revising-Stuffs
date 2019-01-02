@@ -70,7 +70,7 @@ public class Main {
 
                     //method 3
                     //Actually it will be used to copy the Array
-                    
+
                     String[] myNewArray = new String [groceryList.getGroceryList().size()];
                     myNewArray = groceryList.getGroceryList().toArray(myNewArray);
 

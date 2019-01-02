@@ -11,7 +11,7 @@ public class GroceryList {
 
     }
 
-    public ArrayList<String> getGroceryList(){
+    public ArrayList<String>getGroceryList(){
         return groceryList;
     }
 
