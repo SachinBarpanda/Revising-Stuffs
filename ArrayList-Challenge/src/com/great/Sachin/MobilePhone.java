@@ -22,6 +22,7 @@ public class MobilePhone {
         return -1;
 
     }
+
     public int searchContacts2(Contacts contact){
         int value = contacts.indexOf(contact);
         if(findContacts(contact)>=0){
@@ -41,7 +42,10 @@ public class MobilePhone {
 
     public void editContacts(Contacts oldContact,Contacts contact){
         //contacts.get(contacts.indexOf(oldContact)).mobileNumber;
-        if(findContacts(oldContact)>=0){
+        if((searchContacts(contact.getName()))>=0){
+            System.out.println("contact already exist");
+        }
+        else if(findContacts(oldContact)>=0){
             editContacts(findContacts(oldContact),contact);
         }
     }
