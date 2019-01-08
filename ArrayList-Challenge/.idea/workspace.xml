@@ -4,13 +4,6 @@
     <list default="true" id="d264cf8b-1f11-4107-86ca-052c9eb7fefc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Auto_UnBoxing_Challenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto_UnBoxing_Challenge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto_UnBoxing_Challenge/src/com/great/Sachin/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto_UnBoxing_Challenge/src/com/great/Sachin/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto_UnBoxing_Challenge/src/com/great/Sachin/Branch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto_UnBoxing_Challenge/src/com/great/Sachin/Branch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto_UnBoxing_Challenge/src/com/great/Sachin/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto_UnBoxing_Challenge/src/com/great/Sachin/Customers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto_UnBoxing_Challenge/src/com/great/Sachin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto_UnBoxing_Challenge/src/com/great/Sachin/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Intro_AutoAndUnboxing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Intro_AutoAndUnboxing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Intro_AutoAndUnboxing/out/production/Intro_AutoAndUnboxing/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Intro_AutoAndUnboxing/out/production/Intro_AutoAndUnboxing/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Intro_AutoAndUnboxing/out/production/Intro_AutoAndUnboxing/q3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Intro_AutoAndUnboxing/out/production/Intro_AutoAndUnboxing/q3.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,11 +30,12 @@
     <session id="1435522308">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -133,7 +127,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="696" />
     <option name="width" value="677" />
     <option name="height" value="735" />
@@ -193,15 +187,15 @@
       <workItem from="1546695991517" duration="1837000" />
       <workItem from="1546779201543" duration="3708000" />
       <workItem from="1546864258492" duration="596000" />
+      <workItem from="1546947000854" duration="839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30523000" />
+    <option name="totallyTimeSpent" value="31362000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.1913767" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
