@@ -58,7 +58,7 @@ public class Bank {
             Customers customers = customers1.get(i);
             ArrayList<Double> Transaction = customers.getTransaction();
             for(int j=0 ;j<Transaction.size();j++){
-                System.out.println("Amount : "+Transaction.get(i));
+                System.out.println("Amount : +"+Transaction.get(i));
             }
         }
         //Customers customers1 = new Customers("Sam",90000);
